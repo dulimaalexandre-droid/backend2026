@@ -1,0 +1,45 @@
+<?php
+$a=10;
+$b=2;
+echo "Adição:".($a + $b);#adição: 12
+echo "<br>Subtração:".($a - $b);//8
+echo "<br>Multiplicação:".($a * $b);//20
+echo "<br>Divisão:".($a / $b);// 5
+echo "<br>Módulo:".($a % $b);//0
+echo "<br>Exponenciação:".($a ** $b);// 100
+?>
+<hr>
+<?php
+$a=10;
+$b=2;
+$a+=$b;//$a=$a+$b//$a=10+2//$a=12
+$b-=5;//$b=2-5//$b=-3
+echo "a = ".$a;//a = 12
+echo "<br>b = ".$b; //b = -3
+$c=11;
+$d=6;
+$c%=$d;//$c=11%6//$c=5
+$d+=$a;//$d=6+12//$d=18
+echo "<br>c = ".$c;//$c
+echo "<br>d = ".$d;//$d
+
+echo "<hr>";
+$nome="Bete";
+echo $nome.$d;
+$c.="cinco";//c = 5. cinco" //c="5cinco"
+echo "<br> c = $c";//c =
+
+echo "<hr>";
+$x = 98;
+echo "x = ".++$x;//x = 98
+echo "<br>x final = ".$x;//x final =99
+$i=10; 
+echo "<br>i = $i";// 10
+$i++;//11
+$i++;//12
+++$i;//13
+echo "<br>i = $i";//13
+$i--;//12
+--$i;//11
+echo "<br>i = $i";//
+?>
